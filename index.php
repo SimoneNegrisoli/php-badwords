@@ -22,9 +22,9 @@ echo 'ciao'
 
 <body>
     <form action="censura.php" method="GET">
-        <input type="text" name="nome" placeholder="inserisci nome">
-        <input type="text" name="cognome" placeholder="inserisci nome">
-        <input type="submit" value="Invia" name="data">
+        <input type="text" name="paragrafo" placeholder="inserisci qui il testo">
+        <input type="text" name="censura" placeholder="parola da censurare">
+        <input type="submit" value="Invia">
     </form>
 </body>
 

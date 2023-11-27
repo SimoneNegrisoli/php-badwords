@@ -9,11 +9,14 @@
 
 <body>
     <?php
-    $userName = $_GET["nome"];
-    $userSurname = $_GET["cognome"];
+    $paragraph = $_GET["paragrafo"];
+    $badWord = $_GET["censura"];
 
-    echo 'ciao' . $userName . $userSurname;
-    ?>
+    echo $paragraph . $badWord;
+    echo strlen($badWord);
+    echo str_replace($badWord, '***', $paragraph)
+
+        ?>
 </body>
 
 </html>
