@@ -8,20 +8,24 @@
 -->
 
 <?php
-echo'ciao'
-?>
+echo 'ciao'
+    ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Badwords</title>
 </head>
+
 <body>
     <form action="censura.php" method="GET">
         <input type="text" name="nome" placeholder="inserisci nome">
         <input type="text" name="cognome" placeholder="inserisci nome">
+        <input type="submit" value="Invia" name="data">
     </form>
 </body>
+
 </html>
